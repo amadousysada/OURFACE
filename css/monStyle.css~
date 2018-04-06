@@ -1,0 +1,214 @@
+========================================================
+.TeLOut{
+margin-top: 201px;}
+body{
+	background: #587096;
+}
+
+
+.navbar {
+    background-color: #2d5986;
+}
+.marge{
+    margin-top:35px;
+    width: 300px;
+}
+.marge2{
+    margin-top:20px
+}
+
+
+.alert-danger{
+width: 400px;
+height: 30px;
+margin-right: 15px;
+}
+.alert-success{
+width: 400px;
+height: 30px;
+margin-right: 15px;
+}
+#notif > h3,#notif > button{
+	margin-top: -10px;
+	color: red;
+}
+
+#templ{
+		top:150px;
+		background: #EDEDED;
+    border-radius: 10px;
+    box-shadow: 8px 15px 60px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 8px 15px 60px rgba(0,0,0,0.45);
+    position: absolute;
+}
+
+.container > #templIndex{
+		margin-top:50px;
+    
+}
+#templ > form > legend{
+
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    color: #a7bfe8;
+    padding:0 5% 5% 10%;
+}
+.l{
+	margin-top: 0px;
+	margin-right: 10px;
+}
+.l a {
+    text-decoration: none;
+    color: white;
+}
+
+.pan_title {
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+    font-weight: 15px;
+    color:  white;
+    margin-top: 3px;
+}
+.pan_title2 {
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
+    font-weight: 105px;
+    color:  #009900;
+}
+
+.icon-bar{
+color: red;}
+
+
+==========================================================pour le mur ======================================================================
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+
+
+
+.panel-google-plus {
+    position: relative;
+    border-radius: 0px;
+    border: 1px solid rgb(216, 216, 216);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+.panel-google-plus > .panel-heading,
+.panel-google-plus > .panel-footer {
+    background-color: rgb(255, 255, 255);
+    border-width: 0px; 
+    /*position: fixed;*/
+}
+.panel-google-plus > .panel-heading {
+    margin-top: 20px;    
+    padding-bottom: 5px; 
+}
+.panel-google-plus > .panel-heading > img { 
+    margin-right: 15px;
+}
+.panel-google-plus > .panel-heading > h3 {
+    /*margin: 0px;*/
+    font-size: 14px;
+    font-weight: 700;
+}
+/*.panel-google-plus > .panel-heading > h5 {
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    font-weight: 400;
+}*/
+.panel-google-plus > .panel-body {
+    
+    font-size: 13px;
+}
+
+
+.panel-google-plus > .panel-body > .panel-google-plus-image {
+    display: block;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(217, 217, 217);
+}
+.panel-google-plus > .panel-body > .panel-google-plus-image > img {
+    max-width: 100%;
+}
+
+.panel-google-plus > .panel-footer {
+    font-size: 14px;
+    font-weight: 700;
+    min-height: 54px;
+}
+.panel-google-plus > .panel-footer > .btn {
+    float: left;
+    margin-right: 8px;
+}
+.panel-google-plus > .panel-footer > .input-placeholder {
+    display: block;
+    margin-left: 98px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px 6px 7px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+}
+.panel-google-plus.panel-google-plus-show-comment > .panel-footer > .input-placeholder {
+    display: none;   
+}
+.panel-google-plus > .panel-google-plus-comment {
+    display: none;
+    padding: 10px 20px 15px;
+    border-top: 1px solid rgb(229, 229, 229);
+    background-color: rgb(245, 245, 245);
+}
+.panel-google-plus.panel-google-plus-show-comment > .panel-google-plus-comment {
+    display: block;
+}
+
+.panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea {
+    float: right;
+    width: calc(100% - 56px);
+}
+.panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > textarea {
+    display: block;
+    /*margin-left: 60px;
+    width: calc(100% - 56px);*/
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 217, 217);
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+    resize: vertical;
+}
+.panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > .btn {
+    margin-top: 10px;
+    margin-right: 8px;
+    width: 100%;
+}
+.panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > span {
+    
+   
+    
+}
+@media (min-width: 992px) {
+    .panel-google-plus > .panel-google-plus-comment > .panel-google-plus-textarea > .btn {
+        width: auto;
+    }    
+}
+
+
+.panel-google-plus .btn {
+    border-radius: 3px;   
+}
+.panel-google-plus .btn-default {
+    border: 1px solid rgb(217, 217, 217);
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+}
+.panel-google-plus .btn-default:hover, 
+.panel-google-plus .btn-default:focus, 
+.panel-google-plus .btn-default:active {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);    
+}

@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.marge{
+    margin-top:35px;
+    width: 300px;
+}
+.marge2{
+    margin-top:20px
+}
+form{
+    margin:50px 0px 0px 0px
+}
+
+#ourface{
+	color: black;
+	font-size: 20px;
+	margin-left: 150px;
+}
+#logout{
+margin-top: 10px;}
+
